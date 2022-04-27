@@ -17,7 +17,7 @@ public class FactorOfNnumber {
         num = scanner.nextInt();
         System.out.print("Factors :: ");
 
-        for (int i=2 ;i<= num; i++){
+        for (int i=2 ;i*i<= num; i++){
            // System.out.println("i="+i);
 
             // if factor is a factor of n, repeatedly divide it out
